@@ -5,7 +5,7 @@ metadata:
 spec:
   forProvider:
     region: us-east-1
-    instanceType: t3.micro
+    instanceType: t3.nano
     ami: ami-0c02fb55956c7d316   # us-east-1 Amazon Linux 2 AMI
     subnetId: subnet-02ee6e6c8b19a3a7b     # <- replace with subnet from step 2
     vpcSecurityGroupIds:
