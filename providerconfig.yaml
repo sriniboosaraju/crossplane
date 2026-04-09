@@ -2,6 +2,7 @@ apiVersion: aws.upbound.io/v1beta1
 kind: ProviderConfig
 metadata:
   name: aws-provider
+  namespace: crossplane-system   # must match destination
 spec:
   credentials:
-    source: IRSA
+    source: InjectedIdentity
